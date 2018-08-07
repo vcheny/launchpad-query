@@ -2,14 +2,14 @@
 This is a small script to query Launchpad for Contrail bugs and print out related info into csv format. One of its uses is to collect some statistics for bugs contains certain tags.
 
 # Installation
-1. Get the script
-```wget https://raw.githubusercontent.com/vcheny/launchpad-query/master/lpq.py```
-or
-```git clone git@github.com:vcheny/launchpad-query.git```
-2. Install launchpadlib if missing
-```sudo apt-get install python-launchpadlib```
-or
-```pip install launchpadlib```
+1. Get the script  
+```wget https://raw.githubusercontent.com/vcheny/launchpad-query/master/lpq.py```  
+or  
+```git clone git@github.com:vcheny/launchpad-query.git```  
+2. Install launchpadlib if missing  
+```sudo apt-get install python-launchpadlib```  
+or  
+```pip install launchpadlib```  
 
 # Usage
 ```
@@ -47,7 +47,7 @@ Please set a password for your new keyring:
 Please confirm the password: 
 ```
 
-If your browser doesn't pop out automatically, copy the url into browser. You would need to authorize  the access after login.
-Once authorization is done, you can set a local password lock it.
+If browser doesn't pop up automatically, copy the url into browser. You would need to authorize the access after login.
+Once authorization is done, set a local password lock it.
 
 
