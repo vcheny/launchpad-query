@@ -1,7 +1,8 @@
 # launchpad-query
 This is a small script to query Launchpad for Contrail bugs and print out related info into csv format. One of its uses is to collect some statistics for bugs contains certain tags.
 
-#Usage
+# Usage
+```
 [cheny-mbp:~/Work/github/launchpad-query]$ ./lpq.py -h
 usage: lpq [-h] [-a AFTER] [-b BEFORE] [--open_only] [--closed_only] tag
 
@@ -20,3 +21,4 @@ optional arguments:
                         2018-03-19
   --open_only           Only list LPs in open state
   --closed_only         Only list LPs not in open state
+```
