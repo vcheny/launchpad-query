@@ -2,8 +2,15 @@
 
 import argparse
 from datetime import datetime
-from launchpadlib.launchpad import Launchpad
 import re
+try:
+    from launchpadlib.launchpad import Launchpad
+except:
+    print '''ERROR: Failed to import Launchpad lib. Use below to install it
+       sudo apt-get install python-launchpadlib
+     or
+       pip install launchpadlib'''
+    exit()
 
 TAG_TO_CUSTOMER = {
     'att-aic-contrail': 'AT&T',
